@@ -1,0 +1,142 @@
+.headerBox {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.headerBoxFilter {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.filterSelect {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.filterSelectText {
+    color: #5E7793;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.72px;
+}
+
+.filterSelectText.active {
+    color: #007bff;
+}
+
+.filterOptions {
+    border-radius: 8px;
+    padding: 4px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px 0px #00000014;
+}
+
+.option {
+    padding: 7px 12px;
+    color: #2B2D33;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.option.disabled {
+    color: #007bff;
+}
+
+.option:hover {
+    background-color: #DEE4FF;
+}
+
+.filterResetBtn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5E7793;
+}
+
+.datePicker {
+    margin-top: 10px;
+    position: absolute;
+    z-index: 999;
+}
+
+.dateRangeSelector {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.dateDisplay {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dateDisplay svg path:hover, 
+.arrow path:hover{
+    fill: #002CFB;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.arrow.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.dateText {
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.dateFilter {
+    position: relative;
+}
+
+.customDateRangePicker {
+    position: absolute;
+    z-index: 1;
+    right: 25%;
+    top: 10%;
+}
+
+.dateFilterOptions {
+    border-radius: 4px;
+    padding: 7px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 26px 0px #E9EDF3CC;
+    border: 1px solid #EAF0FA;
+}
+
+.dateOptions {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-wrap: nowrap;
+    padding: 0 13px;
+}
+
+.dateOptions:hover {
+    background: #DEE4FF;
+}

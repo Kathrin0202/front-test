@@ -1,0 +1,41 @@
+.headerTable {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #EAF0FA;
+    color: #5E7793;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.72px;
+    text-align: left;
+    padding-right: 31px;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.inOut {
+    padding-left: 20px;
+  }
+
+.groupedCalls {
+  height: 65px;
+  border-bottom: 1px solid #EAF0FA;
+}
+
+.groupedCallsText {
+    color: #122945;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21.75px;
+    padding-left: 20px;
+}
+
+.upperIndex {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    vertical-align: super;
+    color: #899CB1;
+}

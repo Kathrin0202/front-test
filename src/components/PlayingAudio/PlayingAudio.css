@@ -1,0 +1,51 @@
+.playDurationItem {
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    background-color: #EAF0FA;
+    height: 48px;
+    justify-content: center;
+    padding: 0 12px;
+}
+
+.playDurationTime {
+    color: #122945;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21.75px;
+}
+
+.playDurationItemBtn {
+    cursor: pointer;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.playProgressBar {
+    flex-grow: 1;
+    height: 4px;
+    background-color: #ADBFDF;
+    border-radius: 50px;
+    position: relative;
+    width: 164px;
+}
+
+.playProgress {
+    height: 4px;
+    background-color: #002CFB;
+    border-radius: 50px;
+}
+
+.playDownload,
+.playClose {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.playDownload svg path:hover,
+.playClose svg path:hover {
+    fill: #002CFB;
+}
